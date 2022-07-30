@@ -1,0 +1,28 @@
+# site
+title: moodboard
+baseurl: 
+url: "http://zulfadz.github.io"
+favicon: "/assets/ico.png"
+g_analytics: UA-12345678-1
+
+# bio
+header: zul-fadzli
+desc: >
+   welcome to my moodboard.
+
+# posts
+date_format: "%Y"
+
+# build settings
+markdown: kramdown
+#theme: fry
+remote_theme: lilykonings/fry
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+
+
+
+
+
