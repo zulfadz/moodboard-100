@@ -6,9 +6,9 @@ favicon: "/assets/ico.png"
 g_analytics: UA-12345678-1
 
 # bio
-header: zul-fadzli
+header: 100-day habit moodboard
 desc: >
-   welcome to my moodboard.
+   A companion to 100-day habit log trackers
 
 # posts
 date_format: "%Y"

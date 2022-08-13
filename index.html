@@ -4,9 +4,10 @@ layout: default
 
 <div id="myBtnContainer">
   <a class="btn active" onclick="filterSelection('all')"> Show all</a>
-  <a class="btn" onclick="filterSelection('1974')"> 1974</a>
-  <a class="btn" onclick="filterSelection('2022')"> 2022</a>
-  <a class="btn" onclick="filterSelection('2023')"> 2023</a>
+  <a class="btn" onclick="filterSelection('abbott')"> abbott</a>
+  <a class="btn" onclick="filterSelection('anki')"> anki</a>
+  <a class="btn" onclick="filterSelection('art')"> art</a>
+  <a class="btn" onclick="filterSelection('workout')"> workout</a>
   
 </div>
 
@@ -19,7 +20,7 @@ layout: default
 {% if site.posts %}
 
   {% for post in site.posts %}
-    <div class="photos {{ post.date | date: site.date_format }}">
+    <div class="photos {{ post.title }}">
       <div class="photos__title">
         {% if site.date_format %}
           {{ post.date | date: site.date_format }}
